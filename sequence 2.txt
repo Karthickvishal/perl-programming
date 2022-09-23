@@ -1,0 +1,7 @@
+$dna='ATGCGTATCA';
+$dna=~/u/ATGC/atgc/;
+print $dna,"\n";
+$dna='atgcctga';
+$dna=~/l/atgc/ATGC/; 
+print $dna,"\n";
+exit
